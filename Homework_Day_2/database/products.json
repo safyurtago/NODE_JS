@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "Qulupnay",
+    "count": 25
+  },
+  {
+    "id": 2,
+    "name": "Banan",
+    "count": 0
+  },
+  {
+    "id": 3,
+    "name": "Olma",
+    "count": 25
+  },
+  {
+    "id": 4,
+    "name": "Anor",
+    "count": 25
+  },
+  {
+    "id": 5,
+    "name": "Uzum",
+    "count": 25
+  },
+  {
+    "id": 6,
+    "name": "Olcha",
+    "count": 25
+  },
+  {
+    "id": 7,
+    "name": "Apelsin",
+    "count": 25
+  }
+]
