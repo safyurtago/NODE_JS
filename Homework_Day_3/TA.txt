@@ -1,0 +1,4 @@
+-- Login - /auth/login
+    -- need to sign up and password must be right
+-- Register - /auth/Register
+    -- login must be free
