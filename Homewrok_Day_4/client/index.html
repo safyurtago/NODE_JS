@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <input type="text" placeholder="Enter Name" name="name" id="name" /> <br /><br />
+        <input type="number" placeholder="Enter Amount" name="count" id="count" /> <br /><br />
+        <input type="number" placeholder="Enter Price" name="price" id="price" /> <br /><br />
+        <input type="submit" value="ADD" id="" style="width: 15%;"/><br /><br />
+        <input type="submit" value="Show All" id="" style="width: 15%;" /> <br /><br />
+        <input type="submit" value="Extend " id=""  style="width: 15%;"/> <br /><br />
+        <input type="submit" value="Sell " id=""  style="width: 15%;"/> <br /><br />
+        <input type="submit" value="Search " id=""  style="width: 15%;"/> <br /><br />
+    </form>
+</body>
+    <script>
+        async function bootstrap () {
+            const data = await fetch("http://localhost:4000/warehouse")
+            console.log(await data.json());
+        }
+        bootstrap()
+
+        const form = document.querySelector("form")
+        const name = document.querySelector("#name")
+        const count = document.querySelector("#count")
+        const price = document.querySelector("#price")
+       
+       try {
+        form.addEventListener("submit", async(e) => {
+            e.preventDefault()
+
+            const nameValue = name.value
+            const countValue = count.value
+            const priceValue = price.value
+            if (nameValue === "" || countValue <= 0 || priceValue <= 0) {
+                throw new Error("Invalid Iput")
+            }
+            await fetch("http://localhost:4000/warehouse", 
+            {
+                body: JSON.stringify({name: nameValue, count: countValue, price: priceValue}),
+                method: "POST"
+            })
+            nameValue = ""
+            countValue = ""
+            priceValue = ""
+        })
+       }
+       catch (error) {
+            console.log(error.message);
+       }
+    </script>
+
+</html>
