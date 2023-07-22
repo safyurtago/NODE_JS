@@ -10,11 +10,11 @@
         <input type="text" placeholder="Enter Name" name="name" id="name" /> <br /><br />
         <input type="number" placeholder="Enter Amount" name="count" id="count" /> <br /><br />
         <input type="number" placeholder="Enter Price" name="price" id="price" /> <br /><br />
-        <input type="submit" value="ADD" id="" style="width: 15%;"/><br /><br />
-        <input type="submit" value="Show All" id="" style="width: 15%;" /> <br /><br />
-        <input type="submit" value="Extend " id=""  style="width: 15%;"/> <br /><br />
-        <input type="submit" value="Sell " id=""  style="width: 15%;"/> <br /><br />
-        <input type="submit" value="Search " id=""  style="width: 15%;"/> <br /><br />
+        <button type="button" id="add_btn" style="width: 15%;">ADD</button><br /><br />
+        <button type="submit" id="show_btn" style="width: 15%;">SHOW All</button><br /><br />
+        <button type="submit" id="extend_btn" style="width: 15%;">EXTEND</button><br /><br />
+        <button type="submit" id="buy_btn" style="width: 15%;">BUY</button><br /><br />
+        <button type="submit" id="sell_btn"  style="width: 15%;">SELL</button><br /><br />
     </form>
 </body>
     <script>
@@ -24,15 +24,19 @@
         }
         bootstrap()
 
+        const add_btn = document.querySelector("#add_btn")
+        const show_btn = document.querySelector("#show_btn")
+        const extend_btn = document.querySelector("#extend_btn")
+        const buy_btn = document.querySelector("#buy_btn")
+        const sell_btn = document.querySelector("#sell_btn")
         const form = document.querySelector("form")
         const name = document.querySelector("#name")
         const count = document.querySelector("#count")
         const price = document.querySelector("#price")
        
        try {
-        form.addEventListener("submit", async(e) => {
+        add_btn.addEventListener("click", async(e) => {
             e.preventDefault()
-
             const nameValue = name.value
             const countValue = count.value
             const priceValue = price.value
@@ -50,7 +54,7 @@
         })
        }
        catch (error) {
-            console.log(error.message);
+            alert(error.message);
        }
     </script>
 
