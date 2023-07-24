@@ -27,16 +27,39 @@ app.get("/blogs", async (req, res) => {
     res.json(blogs)
 })
 
+app.get("/blog/:id", async (req, res) => {
+    const {id} = req.params
+    const blogs = await BLOGS.read()
+    const findBlog = blogs.find((blog) => blog.id == id)
+    findBlog.views += 1
+    await BLOGS.write(blogs)
+    res.json(findBlog)
+})
+
 app.put("/blog/:id", async (req, res) => {
     const id = req.params
     const {title, description} = req.body
     const blogs = await BLOGS.read()
-    const findBlog = blogs.find((blog) => blog.id == id)
+    const findBlog = blogs.find((blog) => blog.id == id.id)
+    
     if (!findBlog) return res.status(404).json({message: "BlOG NOT FOUND"})
 
     findBlog.title = title ? title : findBlog.title
     findBlog.description = description ? description : findBlog.description
     await BLOGS.write(blogs)
+    res.json({message: "Successfully Updated"})
+})
+
+app.delete("/blog/:id", async (req, res) => {
+    const {id} = req.params
+    console.log(id);
+    const blogs = await BLOGS.read()
+
+    const filterBlogs = blogs.filter((blog) => blog.id != id)
+
+    await BLOGS.write(filterBlogs)
+
+    res.json({message: "Successfully Deleted"})
 })
 
 
