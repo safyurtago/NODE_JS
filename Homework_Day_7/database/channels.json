@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "name": "sfr",
+    "username": "safyur",
+    "description": "nmadir",
+    "photo": "c7ab9e9a5ca9fdb01d1d496c31fb6748_1690292645893.jpeg",
+    "owner": "1"
+  },
+  {
+    "id": 2,
+    "name": "sfr",
+    "username": "ramseyyy",
+    "description": "nmadir",
+    "photo": "c7ab9e9a5ca9fdb01d1d496c31fb6748_1690292730806.jpeg",
+    "owner": "3"
+  },
+  {
+    "id": 3,
+    "name": "elon",
+    "username": "elonntago",
+    "description": "nmadir",
+    "photo": "c7ab9e9a5ca9fdb01d1d496c31fb6748_1690292768499.jpeg",
+    "owner": "2"
+  },
+  {
+    "id": 4,
+    "name": "mark",
+    "username": "markowner",
+    "description": "34143515",
+    "photo": "c7ab9e9a5ca9fdb01d1d496c31fb6748_1690294767092.jpeg",
+    "owner": "2"
+  }
+]

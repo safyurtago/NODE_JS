@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "photo": "c7ab9e9a5ca9fdb01d1d496c31fb6748_1690299328273.jpeg",
+    "title": "title1",
+    "description": "description",
+    "views": 3,
+    "channel": "1"
+  },
+  {
+    "id": 2,
+    "photo": "c7ab9e9a5ca9fdb01d1d496c31fb6748_1690299338208.jpeg",
+    "title": "title2",
+    "description": "description",
+    "views": 2,
+    "channel": "2"
+  },
+  {
+    "id": 3,
+    "photo": "c7ab9e9a5ca9fdb01d1d496c31fb6748_1690299343114.jpeg",
+    "title": "title3",
+    "description": "description",
+    "views": 0,
+    "channel": "3"
+  },
+  {
+    "id": 4,
+    "photo": "c7ab9e9a5ca9fdb01d1d496c31fb6748_1690299346937.jpeg",
+    "title": "title4",
+    "description": "description",
+    "views": 0,
+    "channel": "4"
+  }
+]
