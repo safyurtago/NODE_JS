@@ -1,0 +1,6 @@
+-- USER 
+    -- CREATE - POST
+    -- DELETE - DELETE
+    -- LOGIN - POST
+    -- ALLUSERS - GET
+    -- TRANSIT - PUT
