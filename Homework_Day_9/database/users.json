@@ -1,0 +1,68 @@
+[
+  {
+    "id": "d3b70996-05cf-4bbf-9a1a-264008989e64",
+    "username": "user1",
+    "password": "$2b$12$B5QTqiqtlnxBFOOEgYfR7.YDKx3i7GCpbFcZTzrOxuYZiz9E0aQh6",
+    "money": 50000
+  },
+  {
+    "id": "9138f551-99ef-4b9c-a0fd-d3b6ac8a0f9c",
+    "username": "user3",
+    "password": "$2b$12$IczqBMQwIyDLxLr1WasJLuz22pGWUsv5UvtW4txkUEU18e2LPEIIW",
+    "money": 50000
+  },
+  {
+    "id": "380eac75-4a3d-4690-9628-25e39f838012",
+    "username": "user4",
+    "password": "$2b$12$SHQ8pNMhf4tU/C0QyumGPONzksH84v6RcHVriCDBYkD0QD.UhzElm",
+    "money": 50000
+  },
+  {
+    "id": "13b7f7e3-8fed-4f8d-bc56-4aa8757c2c9c",
+    "username": "user5",
+    "password": "$2b$12$Xh2uOWYjqLSl8kd7sR40he11nrHbpb74M2Scoc1IXrK7tTsLZ1lM2",
+    "money": 50000
+  },
+  {
+    "id": "61229304-af26-48fd-a926-898a56a5005b",
+    "username": "user6",
+    "password": "$2b$12$fRflCRdkMSO0l8ouFf4kGeMeyvE162Pp9rDvcKc6CLV05sDPuaREG",
+    "money": 50000
+  },
+  {
+    "id": "146140c1-1d3a-4006-96f7-6067dfdab4b9",
+    "username": "user7",
+    "password": "$2b$12$8dSNt1BgFL.cKTEVZzuqZOoVFQCGaSpb/UUFLrhYqiNsTsivZMEuu",
+    "money": 50000
+  },
+  {
+    "id": "58fa02ef-5220-483a-b9e0-03d169bfab15",
+    "username": "user8",
+    "password": "$2b$12$CGQ0xzQY6lKGcKNHQZmGVuSDUUseIvh0wPqlF6CMRUBTIQdVAQYjK",
+    "money": 50000
+  },
+  {
+    "id": "8676a1a1-6fc3-44bc-bb3f-7992a3dc5b79",
+    "username": "user9",
+    "password": "$2b$12$JmRlTrRmPZFZ63JhHzfyEOEaBOmob2qHLYZWAQgTpgUyGuiGI/XB6",
+    "money": 50000
+  },
+  {
+    "id": "cd9cfd02-89b9-4ac2-ace5-0d18b2428866",
+    "username": "user10",
+    "password": "$2b$12$WBWv2E/SG28YN8/2ljxDhOG45/2Jjb5UswwmOhcG4NC6JiUI.wq9i",
+    "money": 50000
+  },
+  {
+    "id": "51961812-d055-4850-9b0d-60b93c497905",
+    "username": "user11",
+    "password": "$2b$12$oMTcEslZN1ICRXGyinrq0uWU7XdMQFBQvFsi9s4mdK7mnVqcTqUwy",
+    "money": 0
+  },
+  {
+    "id": "3c0ee4a0-a365-4636-9e54-47caddad70a0",
+    "username": "user13",
+    "password": "$2b$12$VA6NW6wITygOrPEZbqMP0uE8ylx9fUZEfDepAZN/Cy3bWRWTlCU8m",
+    "money": 50000
+  }
+]
