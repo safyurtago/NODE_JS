@@ -1,23 +1,16 @@
 [
   {
-    "id": "2668f73a-978f-477a-835d-7b14d4c39e8b",
-    "fullName": "Shahroz Gullyev",
+    "id": "d24f3cd0-05bb-41e1-8ab5-e189cf67961c",
+    "fullName": "Shahroz Gulliyev",
     "username": "safyur",
-    "password": "$2b$12$ptWEvvLRGkA8hIu09o3Hs.pBy/LWTgJHLRJEya40wvSUV76lhB.xC",
+    "password": "$2b$12$IDAPjurGH/tuQcw5his2F.bac9S9O3/iT4BJ.o4hSFZKjMHuXNuAy",
     "photo": null
   },
   {
-    "id": "ac5b5f61-c331-49a6-866f-8a3e30472295",
-    "fullName": "Shahroz Gullyev",
-    "username": "safyur3",
-    "password": "$2b$12$RpbcOGBtOknJOBe7lPmIlOy6KgC.Up3l2QahnILnSCvZbIxHDzwWu",
-    "photo": null
-  },
-  {
-    "id": "965ae530-92fe-42e4-b5c9-dfb275fa539c",
-    "fullName": "Shahroz Gullyev",
-    "username": "safyur2",
-    "password": "$2b$12$g61iBORc.U07CHyDOITtcuF/sLeykPte/Rxl39pdNt95YAt3Y6jYy",
+    "id": "876eca5c-0c7a-4080-8df0-dbd9dcc33ec9",
+    "fullName": "Ramz Gulliyev",
+    "username": "ramsey",
+    "password": "$2b$12$uCji4MzFDde2sT0cuf7AAeX7N4nuyz/Hrnh06x0SVAfYtdgAnyED2",
     "photo": null
   }
 ]

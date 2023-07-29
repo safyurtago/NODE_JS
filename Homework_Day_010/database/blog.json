@@ -1,0 +1,20 @@
+[
+  {
+    "id": "06769885-6592-4428-8af4-3ea01eda0544",
+    "title": "blog1",
+    "photo": "c7ab9e9a5ca9fdb01d1d496c31fb6748_1690657259017.jpeg",
+    "description": "safyur's blog",
+    "owner": "d24f3cd0-05bb-41e1-8ab5-e189cf67961c",
+    "views": 2,
+    "createdAt": 1690657259017
+  },
+  {
+    "id": "f860f935-57f8-4805-8e90-358eeb1a51e4",
+    "title": "blog2",
+    "photo": "c7ab9e9a5ca9fdb01d1d496c31fb6748_1690657459127.jpeg",
+    "description": "ramsey's blog",
+    "owner": "876eca5c-0c7a-4080-8df0-dbd9dcc33ec9",
+    "views": 2,
+    "createdAt": 1690657459128
+  }
+]

@@ -10,7 +10,7 @@ const getProfile = async (req, res) => {
         const id = req.userId
         const users = await getFunction(Users)
         const findUser = users.find(user => user.id == id)
-        delete findUser.password
+        // delete findUser.password
         res.json({message: "Success", data: findUser})
 
     } catch (error) {
