@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "title": "Tarvuz",
+    "description": "Bu ichi qizil Tarvuz",
+    "photo": "f954570a-652c-494b-ac75-605132bd96ae.jpg",
+    "sell": "15000",
+    "buy": "10000",
+    "count": "100"
+  },
+  {
+    "id": 2,
+    "title": "Qovun",
+    "description": "Bu ichi qizil Qovun",
+    "photo": "7a859b9e-7be6-41f2-8b89-7ea04aa0c322.jpg",
+    "sell": "20000",
+    "buy": "10000",
+    "count": "1200"
+  },
+  {
+    "id": 3,
+    "title": "Olma",
+    "description": "Bu ichi qizil Olma",
+    "photo": "8b1cbcb4-0386-42f4-bdb0-6f7848c758c5.jpg",
+    "sell": "10000",
+    "buy": "50000",
+    "count": "100"
+  }
+]

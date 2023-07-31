@@ -1,0 +1,32 @@
+-- Online supermarket
+    Login Register Admin Cart Favourites Order
+
+    -- Auth             Done
+        -- Login - POST
+        -- Register - POST
+    
+    -- Users            Done
+        -- All - POST - Admin
+
+    -- Production       Done
+        -- Create - POST - Admin
+        -- Get All - Get
+        -- Get One - Get
+        -- Edit - PUT - Admin
+        -- Delete - DELETE - Admin
+
+    -- Cart             Done
+        -- add - POST
+        -- add to Cart - POST
+        -- Get All - GET
+        -- Delete - DELETE
+
+    -- Favourites      
+        -- add - POST
+        -- Get All - GET
+        -- Delete - DELETE
+ 
+    -- Order
+        -- Order - POST - 
+        -- Order by Cart - POST
+        -- GET All - GET - by role
