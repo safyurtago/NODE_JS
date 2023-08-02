@@ -1,0 +1,12 @@
+YOUTUBE platform
+
+    -- Authentication
+        -- login user
+        -- register user
+    -- User
+        -- Get all users - GET 
+    -- Video upload
+        -- upload video -- POST -- is Auth
+        -- get all videos - GET
+        -- get one video - GET by id 
+        

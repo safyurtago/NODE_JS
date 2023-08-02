@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "fullName": "Ramz Gulliyev",
+    "password": "$2b$12$LoT3fuPHeoTYes3oNpw/0eEJ8Ynp9DAiqUHcWRaFRmQ51VqPIxxye",
+    "phoneNumber": "+998903130888",
+    "isAdmin": false
+  },
+  {
+    "id": 2,
+    "fullName": "Shahroz Gulliyev",
+    "password": "$2b$12$zy.Z2rFcVwIzyDftSv/rfOO0TRlRNtIMdFkVVxQX4Q6OfzdFOnGtG",
+    "phoneNumber": "+998912210990",
+    "isAdmin": false
+  }
+]
