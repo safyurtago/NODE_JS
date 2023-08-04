@@ -18,7 +18,7 @@
 <script type="module">
     import { io } from "https://cdn.socket.io/4.4.1/socket.io.esm.min.js";
   
-    const socket = io("http://localhost:5555");
+    const socket = io("192.168.0.102:5555"); // there is your ip address or local address
 
     const form = document.querySelector("form");
     const input = document.getElementById("text");
@@ -27,18 +27,18 @@
     
     form.addEventListener("submit", (e) => {
         e.preventDefault();
-        socket.emit("message", {message: input.value}); 
+        socket.emit("submit", {message: input.value}); 
         input.value = ""; 
+    })
+    socket.on('response', ({message, name}) => {
+        div.innerHTML += name +" dan " + message + "</br>"
     })
 
     socket.on('name', (name) => {
         h1.innerHTML = name
     } )
 
-    socket.on('response', ({message, name}) => {
-        div.innerHTML += name +" dan " + message + "</br>"
-    })
-    
+   
 
 
   </script>
