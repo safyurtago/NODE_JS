@@ -1,0 +1,26 @@
+[
+  {
+    "name": "sfr",
+    "id": 1,
+    "author": "safyur",
+    "groupUsers": [
+      "safyur"
+    ]
+  },
+  {
+    "name": "sfr",
+    "id": 2,
+    "author": "aziz",
+    "groupUsers": [
+      "aziz"
+    ]
+  },
+  {
+    "name": "1",
+    "id": 3,
+    "author": "otti",
+    "groupUsers": [
+      "otti"
+    ]
+  }
+]

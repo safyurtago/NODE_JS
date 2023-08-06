@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Website</title>
+</head>
+<body>
+    <h1>GROUP CHAT</h1>
+    
+    <form id="auth">
+        <label for="form">SIGN IN / SIGN UP</label><br></br>
+        <input type="text" placeholder="Enter Username" id="username" required>
+        <input type="password" placeholder="Enter Password" id="password" required>
+        <input type="submit" value="Login" id="login">
+        <!-- <input type="submit" value="Register" style=" width:100px"> -->
+    </form>
+    <hr>
+    <br><br>
+    
+    <form id="create">
+        <label for="form">CREATE GROUP</label><br></br>
+        <input type="text" placeholder="Group Name..." id="groupname" required>
+        <input type="text" placeholder="Author Name..." id="authorname" required>
+        <input type="submit" value="Create">
+    </form>
+    <hr>
+    <br><br>
+    
+    <form id="join">
+        <label for="form">JOIN GROUP</label><br><br>
+        <select name="option" id="select" style="width: 100px;"></select>
+        <input type="submit" value="Join" style="width: 70px;">
+    </form>
+    
+
+</body>
+<script type="module">
+    import { io } from "https://cdn.socket.io/4.3.2/socket.io.esm.min.js";
+    const socket = io("http://localhost:8080");
+
+    // Auth Documentation
+    const authFrom = document.getElementById("auth");
+    const username = document.getElementById("username");
+    const password = document.getElementById("password");
+
+    // Create Documentation
+    const createFrom = document.getElementById("create");
+    const groupname = document.getElementById("groupname");
+    const authorname = document.getElementById("authorname")
+   
+    // Join Documentation
+    const joinFrom = document.getElementById("join");
+    const select = document.getElementById("select");
+
+
+    // AUTHENTICATION
+
+    authFrom.addEventListener("submit", (e) => {
+        e.preventDefault();
+        socket.emit("auth", {
+                username: username.value,
+                password: password.value,
+            });
+        socket.on('register', ({message}) => {
+            alert(message);
+            socket.emit("registeration", {
+                username: username.value,
+                password: password.value,
+                })
+            username.value = ""
+            password.value = ""
+        })
+        socket.on('token', ({token}) => {
+            // console.log(token);
+            localStorage.setItem("token", token);
+        })
+        socket.on('passwordError', ({message}) => {alert(message);})
+    })
+    // CREATE GROUP
+
+    createFrom.addEventListener("submit", (e) => {
+        e.preventDefault();
+
+    })
+
+         
+
+    // JOIN GROUP
+    joinFrom.addEventListener("submit", (e) => {
+        e.preventDefault();
+    
+    });
+   
+</script>
+</html>

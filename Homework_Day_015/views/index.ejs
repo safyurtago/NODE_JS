@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Website</title>
+</head>
+<body>
+    <h1>Group Chat</h1>
+    <form id="join">
+        <input type="text" placeholder="Name..." id="username" required>
+        <select name="option" id="select"></select>
+        <input type="submit" value="Join">
+    </form>
+    <br>
+    <hr>
+    <br>
+    <form id="create">
+        <input type="text" placeholder="Group..." id="GroupName" required>
+        <input type="text" placeholder="Author..." id="AuthorName" required>
+        <input type="submit" value="Create">
+    </form>
+    <hr>
+    
+</body>
+<script type="module">
+    import { io } from "https://cdn.socket.io/4.3.2/socket.io.esm.min.js";
+    
+    const socket = io();
+
+    const joinForm = document.getElementById("join");
+    const createForm = document.getElementById("create");
+    const username = document.getElementById("username");
+    const groupName = document.getElementById("GroupName");
+    const authorName = document.getElementById("AuthorName");
+    const select = document.getElementById("select");
+
+
+    createForm.addEventListener("submit", (e) => {
+        e.preventDefault();
+        socket.emit("createGroup", {
+            groupName: groupName.value,
+            authorName: authorName.value
+        })
+        groupName.value = "";
+        authorName.value = "";
+    })
+    socket.on('groups', ({info}) => {
+        select.innerHTML = ""
+        info.forEach(async (group) => {
+            const option = document.createElement("option");
+            option.textContent = group.name
+            option.value = group.name
+            select.append(option)
+        })
+    })
+    socket.on('new-message', ({message}) => {
+        console.log(message);
+    })
+    
+    // joinForm.addEventListener("submit", (e) => {
+    //     e.preventDefault();
+    //     socket.emit("joinGroup", {
+    //         username: username.value,
+    //         groupName: groupName.value,
+    //         authorName: authorName.value,
+    //     });
+    // })
+    
+
+</script>
+</html>
