@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "grammy": "^1.17.2"
+  },
+  "name": "telegrambot",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "scripts": {
+    "dev": "nodemon app"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "description": ""
+}
