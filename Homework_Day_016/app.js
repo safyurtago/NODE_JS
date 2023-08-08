@@ -12,7 +12,7 @@ bot.command('start', async (ctx) => {
 
 bot.on(':location', async (ctx) => {
     const {latitude, longitude} = ctx.message.location;
-    const result = distance(latitude, longitude, latitude + 1, longitude + 1)
+    const result = distance(latitude, longitude, 41.285996, 69.203431)
     await ctx.reply(result)
 })
 
