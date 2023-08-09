@@ -1,0 +1,129 @@
+-- SHERIK KERAK 
+    -- NAME FAMILY
+    -- TECHNOLOGIES 
+    -- PHONE
+    -- LOCATION
+    -- PRICE
+    -- PROFESSION
+    -- TIME TO APPLY
+    -- PLAN/MAQSAD
+    Sherik kerak:
+
+
+Xodim kerak:
+
+
+🏅 Sherik: Sagsg 
+📚 Texnologiya: C 
+🇺🇿 Telegram: @safyurrr 
+📞 Aloqa: 
+🌐 Hudud: Asgsag 
+💰 Narxi: AGAHAH 
+👨🏻‍💻 Kasbi: GAG 
+🕰 Murojaat qilish vaqti: ASDGAG 
+🔎 Maqsad: ASGAHAHDSHA 
+
+--------------------------------------------------------
+
+-- HODIM KERAK
+    -- NAME OF COMPANY
+    -- TECHNOLOGIES
+    -- PHONE
+    -- LOCATION
+    -- PERSON NAME TO CONTACT
+    -- TIME TO APPLY
+    -- JOB TIME
+    -- SALARY
+    -- ADDITIONAL INFORMATION
+
+Xodim kerak:
+
+🏢 Idora: Agdasgasg
+📚 Texnologiya: Aga 
+🇺🇿 Telegram: @safyurrr 
+📞 Aloqa: 
+🌐 Hudud: Asdgags 
+✍️ Mas'ul: Asgagsg
+🕰 Murojaat vaqti: ASGDAG 
+🕰 Ish vaqti: 234325 
+💰 Maosh: ASGASG
+‼️ Qo`shimcha: ASGDAGS
+
+--------------------------------------------------------
+
+-- ISH JOYI KERAK
+    -- NAME FAMILY
+    -- AGE
+    -- TECHNOLOGIES
+    -- PHONE
+    -- LOCATION
+    -- PRICE
+    -- PROFESSION
+    -- TIME TO APPLY
+    -- PLAN/MAQSAD
+
+Ish joyi kerak:
+
+👨‍💼 Xodim: Asgasg
+🕑 Yosh: 234
+📚 Texnologiya: C 
+🇺🇿 Telegram: @safyurrr 
+📞 Aloqa: 
+🌐 Hudud: Asg 
+💰 Narxi: AGAG 
+👨🏻‍💻 Kasbi: ASGAG 
+🕰 Murojaat qilish vaqti: AGAG 
+🔎 Maqsad: ASGAG 
+
+--------------------------------------------------------
+
+
+-- USTOZ KERAK
+    -- NAME FAMILY
+    -- AGE
+    -- TECHNOLOGIES
+    -- PHONE
+    -- LOCATION
+    -- PRICE
+    -- PROFESSION
+    -- TIME TO APPLY
+    -- PLAN/MAQSAD
+
+Ustoz kerak:
+
+🎓 Shogird: Aasf
+🌐 Yosh: AGE
+📚 Texnologiya: C 
+🇺🇿 Telegram: @safyurrr 
+📞 Aloqa: 
+🌐 Hudud: Asg 
+💰 Narxi: ASDGAGG 
+👨🏻‍💻 Kasbi: SAGDSG 
+🕰 Murojaat qilish vaqti: SAAG 
+🔎 Maqsad: SAGAG 
+
+--------------------------------------------------------
+
+-- SHOGIRD KERAK
+    -- NAME FAMILY
+    -- AGE
+    -- TECHNOLOGIES
+    -- PHONE
+    -- LOCATION
+    -- PRICE
+    -- PROFESSION
+    -- TIME TO APPLY
+    -- PLAN/MAQSAD
+
+Shogird kerak:
+
+🎓 Ustoz: Asdggas
+🌐 Yosh: WDF
+📚 Texnologiya: C 
+🇺🇿 Telegram: @safyurrr 
+📞 Aloqa: 
+🌐 Hudud: Sasd 
+💰 Narxi: SDGSAG 
+👨🏻‍💻 Kasbi: ASD 
+🕰 Murojaat qilish vaqti: ASF 
+🔎 Maqsad: ASDGAG 
