@@ -1,0 +1,20 @@
+[
+  {
+    "id": "400a5a7d-43a6-4b40-813e-27c7ab916588",
+    "firstName": "Shahroz",
+    "lastName": "Gulliyev",
+    "username": "safyur",
+    "email": "safyur0621@gmail.com",
+    "password": "$2b$10$dKxkAuBpPSYMBuQhOeIEfe8V.grV5vPvSg1Lnbq/3v2hE8To3/PgC",
+    "isAdmin": true
+  },
+  {
+    "id": "57bf5712-757e-4dd5-bc28-70789dbffbc1",
+    "firstName": "Ramz",
+    "lastName": "Gulliyev",
+    "username": "ramsey",
+    "email": "safyur0621@gmail.com",
+    "password": "$2b$10$43lTKmxkqxVao6pffNDaOuvT6L4wfzD0rVW.0iwE.GssLlwyQAqpO",
+    "isAdmin": false
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "id": "ad59368a-f17d-4cb3-ba95-bfd0f3e00269",
+    "serviceName": "secondService",
+    "servicePhoto": "6239c7aa-36de-4dc6-8e30-ab5c36335fd6.png"
+  },
+  {
+    "id": "fd991145-bc11-4c76-8b86-86d09473c9b5",
+    "serviceName": "firstService",
+    "servicePhoto": "ac935a57-9ed9-49f9-8e65-2dab00ed717a.dng"
+  }
+]
