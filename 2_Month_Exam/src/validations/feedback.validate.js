@@ -2,7 +2,7 @@ const Joi = require('joi');
 
 const feedbackValidate = async (req, res, next) => {
     const {personName, personJob, personFeedback} = req.body;
-    const file = req.files.photo;
+    const file = req.files?.photo;
     const schema = Joi.object({
         personName: Joi.string().required(),
         personJob: Joi.string().required(),

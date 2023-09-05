@@ -16,5 +16,14 @@
     "email": "safyur0621@gmail.com",
     "password": "$2b$10$43lTKmxkqxVao6pffNDaOuvT6L4wfzD0rVW.0iwE.GssLlwyQAqpO",
     "isAdmin": false
+  },
+  {
+    "id": "32f9cf0f-43c8-4b87-92fe-bf55d354f516",
+    "firstName": "Aziz",
+    "lastName": "Gulliyev",
+    "username": "azik",
+    "email": "safyur0621@gmail.com",
+    "password": "$2b$10$peNEcZ3E6sYANjzz.JjpiuCtL5sqKeXz9Lpat8EmXkHkxFEiAa1re",
+    "isAdmin": false
   }
 ]
